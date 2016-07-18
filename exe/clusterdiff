@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "ambari_cluster_diff"
+
+AmbariClusterDiff::CLI.start
